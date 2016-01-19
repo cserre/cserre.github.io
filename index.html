@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Charlotte's Minesweeper</title>
+  <link rel="stylesheet" href="minesweeper.css">
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+</head>
+<body>
+  <div class="bg">
+    <h1>Will you be good enough ?</h1>
+    <form id="level">
+      <select size="1">
+      <option>beginner
+      <option>intermediate
+      <option>expert
+      <option>no life
+      </select>
+      <input type="submit" value="ok">
+    </form>
+    <div id="result"></div>
+
+
+  <table id="minesweeper">
+  </table>
+  </div>
+  <!-- Including jQuery from the Google CDN -->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+  <!-- Including your code -->
+  <script type="text/javascript" src="minesweeper.js"></script>
+</body>
+</html>
